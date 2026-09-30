@@ -26,3 +26,6 @@ No flags of active HTB machines are published — retired boxes only, per the ru
 ## License
 
 MIT, see [LICENSE](LICENSE).
+
+---
+maintained · verified 2026-09-30

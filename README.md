@@ -37,3 +37,7 @@ maintained · verified 2026-10-02
 ## Writeup format
 
 each challenge gets: the prompt, tools used, the solve path with dead ends included, and a takeaway line. dead ends matter — they're where the learning lives. PRs in this shape are welcome.
+
+## Writeup format
+
+each challenge gets: the prompt, tools used, the solve path with dead ends included, and a takeaway line. dead ends matter — they're where the learning lives. PRs in this shape are welcome.

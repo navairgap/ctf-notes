@@ -41,3 +41,7 @@ each challenge gets: the prompt, tools used, the solve path with dead ends inclu
 ## Writeup format
 
 each challenge gets: the prompt, tools used, the solve path with dead ends included, and a takeaway line. dead ends matter — they're where the learning lives. PRs in this shape are welcome.
+
+## Tooling
+
+pwntools for pwn, ghidra for reversing, wireshark for the wire, burp for web. every writeup starts from the same template: prompt, recon, dead ends, solve, takeaway.

@@ -45,3 +45,7 @@ each challenge gets: the prompt, tools used, the solve path with dead ends inclu
 ## Tooling
 
 pwntools for pwn, ghidra for reversing, wireshark for the wire, burp for web. every writeup starts from the same template: prompt, recon, dead ends, solve, takeaway.
+
+## Reading order
+
+start with the web writeups (gentlest ramp), then crypto, then pwn — each assumes the previous. reversing entries stand alone; read them whenever.

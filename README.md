@@ -49,3 +49,7 @@ pwntools for pwn, ghidra for reversing, wireshark for the wire, burp for web. ev
 ## Reading order
 
 start with the web writeups (gentlest ramp), then crypto, then pwn — each assumes the previous. reversing entries stand alone; read them whenever.
+
+## Workflow
+
+notes during the solve, writeup within 48 hours while the dead ends still sting.

@@ -53,3 +53,7 @@ start with the web writeups (gentlest ramp), then crypto, then pwn — each assu
 ## Workflow
 
 notes during the solve, writeup within 48 hours while the dead ends still sting.
+
+## History
+
+the first notes were from a 2022 college CTF where the author solved nothing and learned everything. the writeups since are the compound interest on that weekend.

@@ -62,3 +62,8 @@ notes during the solve, writeup within 48 hours while the dead ends still sting.
 ## History
 
 the first notes were from a 2022 college CTF where the author solved nothing and learned everything. the writeups since are the compound interest on that weekend.
+
+
+## Maintenance notes
+
+A reproducible writeup should record scope, tools and versions, assumptions, failed approaches, root cause, and lessons learned. Confirm publication is allowed, sanitize target details, and never include secrets from real environments.

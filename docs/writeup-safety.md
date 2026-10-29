@@ -9,3 +9,7 @@ Before committing a write-up, search the rendered text and attachments for API k
 ## Reproducible artifacts
 
 For each attached script, packet capture, or binary fixture, record its origin, purpose, size, and cryptographic hash. Identify tool versions and assumptions that affect the result. Prefer small synthetic fixtures over real-user or production data. Remove API keys, session cookies, private hostnames, and machine-specific paths from both text and metadata before publishing. Never include a live target's secrets just to make a reproduction more convenient.
+
+## Handling downloaded artifacts
+
+Treat challenge archives and binaries as untrusted. Record their source and hash, inspect file types before opening them, and analyze them in a disposable VM or container without host credentials or shared sensitive directories. Do not run an included install script merely to inspect the challenge. If a reproduction requires network access, restrict it to the explicitly authorized lab target and document that requirement.

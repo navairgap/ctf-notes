@@ -13,3 +13,7 @@ For each attached script, packet capture, or binary fixture, record its origin, 
 ## Handling downloaded artifacts
 
 Treat challenge archives and binaries as untrusted. Record their source and hash, inspect file types before opening them, and analyze them in a disposable VM or container without host credentials or shared sensitive directories. Do not run an included install script merely to inspect the challenge. If a reproduction requires network access, restrict it to the explicitly authorized lab target and document that requirement.
+
+## Shell history and metadata
+
+Review copied terminal transcripts, shell-history snippets, editor swap files, document metadata, and archive filenames before publishing. Remove tokens, cookies, private paths, and personal identifiers from these secondary sources as well as from the main write-up. Preserve the technical sequence using clearly synthetic placeholders so the reproduction remains useful without exposing a real environment.

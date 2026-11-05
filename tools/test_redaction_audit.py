@@ -13,7 +13,7 @@ class RedactionAuditTests(unittest.TestCase):
             source = root / "writeup.md"
             source.write_text(
                 "safe example\n"
-                + "token = " + token + "\n"
+                + "access_token = " + token + "\n"
                 + "Authorization: Bearer " + "b" * 32 + "\n",
                 encoding="utf-8",
             )
@@ -21,9 +21,9 @@ class RedactionAuditTests(unittest.TestCase):
             self.assertEqual(
                 findings,
                 [
+                    Finding("writeup.md", 2, "credential-assignment"),
                     Finding("writeup.md", 2, "github-token"),
                     Finding("writeup.md", 3, "bearer-authorization"),
-                    Finding("writeup.md", 2, "credential-assignment"),
                 ],
             )
             rendered = repr(findings)
